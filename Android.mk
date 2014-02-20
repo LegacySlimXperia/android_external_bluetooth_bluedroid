@@ -9,7 +9,7 @@ else
   bdroid_CFLAGS := -DHAS_NO_BDROID_BUILDCFG
 endif
 
-include $(call all-subdir-makefiles)
+#nclude $(call all-subdir-makefiles)
 
 # Cleanup our locals
 bdroid_C_INCLUDES :=
